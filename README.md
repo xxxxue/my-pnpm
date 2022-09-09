@@ -3,12 +3,13 @@
 Quickly enter commands for pnpm
 
 
-# Installation
+# 📦 Install
+
 ```cmd
 npm install -g my-pnpm
 ```
 
-# Usage
+# 🚀 Usage
 
 ## n
 
@@ -52,3 +53,27 @@ nx tsc -v
 ```
 use `n`
 ```
+
+# Dev
+
+```
+npm link
+```
+
+```
+pnpm dev
+```
+
+```
+n -v
+```
+
+
+
+
+
+```
+npm login --registry=https://registry.npmjs.org
+npm publish --registry=https://registry.npmjs.org
+```
+
