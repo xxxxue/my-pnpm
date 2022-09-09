@@ -1,0 +1,50 @@
+{
+  "name": "my-pnpm",
+  "version": "1.3.0",
+  "type": "module",
+  "description": "Quickly enter commands for pnpm/nub",
+  "keywords": [
+    "pnpm",
+    "nub"
+  ],
+  "author": "xxxxue <1659809758@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/xxxxue/my-pnpm#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxxxue/my-pnpm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xxxxue/my-pnpm/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "n": "dist/n.mjs",
+    "nd": "dist/nd.mjs",
+    "nt": "dist/nt.mjs",
+    "nx": "dist/nx.mjs",
+    "nr": "dist/nr.mjs"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "npm-publish": "npm publish --registry=https://registry.npmjs.org",
+    "dev-link": "npm link",
+    "dev-unlink": "npm uninstall -g my-pnpm",
+    "format": "prettier --write .",
+    "format-list": "prettier --list-different ."
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "tsdown": "^0.22.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "execa": "^9.6.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

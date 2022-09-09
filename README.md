@@ -1,28 +1,39 @@
-# my-pnpm
+# 😁 my-pnpm
 
-Quickly enter commands for pnpm
+Quickly enter commands for pnpm/nub/...
 
+❌ `pnpm install -D @types/lodash-es @types/node`
 
-# Installation
-```cmd
+✅ `nt lodash-es node`
+
+## 📦 Install
+
+```bash
 npm install -g my-pnpm
 ```
 
-# Usage
+## 🚀 Usage
 
-## n
+### n
 
-```js
-n 
+n = pnpm
+
+```bash
+n
 // pnpm install
 
-n -h 
+n i react
+// pnpm i react
+
+n -h
 // pnpm -h
 ```
 
-## nd 
+### nd
 
-```js
+devDependencies
+
+```bash
 nd webpack
 // pnpm i -D webpack
 
@@ -30,9 +41,11 @@ nd eslint typescript
 // pnpm i -D eslint typescript
 ```
 
-## nt
+### nt
 
-```js
+`@types` devDependencies
+
+```bash
 nt react
 // pnpm i -D @types/react
 
@@ -41,14 +54,40 @@ nt lodash-es node
 
 ```
 
-## nx
+### nx
 
-```js
+local bin runner `node_modules/.bin`
+
+```bash
 nx tsc -v
 // pnpm exec tsc -v
 ```
 
-## other
+### nr
+
+scripts runner
+
+```bash
+nr dev
+// pnpm run dev / pnpm dev
+// nub run dev
 ```
+
+### switch bin name
+
+default `pnpm`
+
+```bash
+n -use nub
+n -use pnpm
+```
+
+### help
+
+```bash
+n -h
+```
+
+### other
+
 use `n`
-```
