@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-//pnpm i -D
 
 import { getArgs, execCmd } from "./utils/index.js";
 

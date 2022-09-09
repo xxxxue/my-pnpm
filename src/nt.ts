@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-console.log("nt");
 
 import { getArgs, execCmd } from "./utils/index.js";
 
