@@ -7,7 +7,7 @@ function main() {
     let args = getArgs();
 
     if (args.length == 0) {
-        throw new Error("请传入 pnpm exec 的参数.");
+        throw new Error("parameters is null !");
     }
 
     let cmdArr = ["pnpm","exec", ...args];

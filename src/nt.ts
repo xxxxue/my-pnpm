@@ -8,7 +8,7 @@ function main() {
     let args = getArgs()
 
     if (args.length == 0) {
-        throw new Error("请传入包名...");
+        throw new Error("parameters is null !");
     }
 
     for (let i = 0; i < args.length; i++) {

@@ -7,8 +7,8 @@ function main() {
     
     let args = getArgs();
 
-    if (args.length == 3) {
-        throw new Error("请传入包名...");
+    if (args.length == 0) {
+        throw new Error("parameters is null !");
     }
 
     let cmdArr = ["pnpm", "i", "-D", ...getArgs()];

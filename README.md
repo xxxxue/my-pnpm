@@ -1,6 +1,12 @@
-# my-pnpm
+# 😁 my-pnpm
 
 Quickly enter commands for pnpm
+
+
+❌ `pnpm install -D @types/lodash-es @types/node`
+
+✅ `nt lodash-es node`
+
 
 
 # 📦 Install
