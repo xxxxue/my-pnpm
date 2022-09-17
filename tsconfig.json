@@ -1,13 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "lib": ["es6"],
+    "target": "ESNext",
+    "lib": ["ESNext"],
     "module": "Node16",
     "rootDir": "src",
     "resolveJsonModule": true,
     "allowJs": true,
     "outDir": "build",
     "strict": true,
-    "noImplicitAny": true
-  }
+    "noImplicitAny": true,
+    //"declaration": true
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
 }

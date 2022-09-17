@@ -59,27 +59,3 @@ nx tsc -v
 ```
 use `n`
 ```
-
-# Dev
-
-```
-npm link
-```
-
-```
-pnpm dev
-```
-
-```
-n -v
-```
-
-
-
-
-
-```
-npm login --registry=https://registry.npmjs.org
-npm publish --registry=https://registry.npmjs.org
-```
-
